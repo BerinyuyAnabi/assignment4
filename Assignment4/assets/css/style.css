@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 15px 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+
+    width: 75px;
+    height: 50px;
+    background-color: purple;
+
+}
+
+header .navigation .navlink {
+    width: 75px;
+    height: 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+header .navigation {
+    display: flex;
+    align-items: center;
+}
+
+header .navigation .navlink.navlink2 {
+    background-color: purple;
+    height: 20px;
+    border-radius: 0;
+}
+
+/* hero section */
+
+.hero {
+    background-color: rgb(54, 51, 51);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* aligns items along the main axis*/
+    align-items: center;
+    /* aligns items along the cross axis*/
+}
+
+.hero-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .first-item {
+    width: 175px;
+    height: 8px;
+    background-color: white;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.hero .second-item {
+    height: 6px;
+    width: 250px;
+    background-color: grey;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.hero .third-item {
+    width: 75px;
+    height: 30px;
+    background-color: purple;
+}
+
+/* benefits section */
+.benefits {
+    padding: 45px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.benefits .square1 .item {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+
+.benefits .square1 .item .box {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background-color: grey;
+
+}
+
+.benefits .square1 .item .text-item .text-item1 {
+    width: 125px;
+    height: 8px;
+    background-color: grey;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.benefits .square1 .item .text-item .text-item2 {
+    width: 175px;
+    height: 8px;
+    background-color: lightgray;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.benefits .square1 .item .text-item .text-item3 {
+    width: 150px;
+    height: 8px;
+    background-color: grey;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+/* Get started section */
+
+.get-started {
+    background-color: rgb(194, 185, 185);
+    padding: 45px 100px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-started .start1 {
+    /* pb*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.get-started .start .start1 .start-item1 {
+    background-color: grey;
+    border-radius: 5px;
+    width: 150px;
+    height: 6px;
+    margin-bottom: 6px;
+}
+
+.get-started .start .start1 .start-item2 {
+    background-color: rgb(223, 209, 209);
+    border-radius: 5px;
+    height: 6px;
+    width: 250px;
+    margin-bottom: 6px;
+}
+
+.get-started .start .start1 .start-item3 {
+    background-color: rgb(223, 209, 209);
+    border-radius: 5px;
+    width: 165px;
+    height: 6px;
+
+}
+
+.get-started .start .start2 .start-item4 {
+    background-color: grey;
+    border-radius: 5px;
+    width: 150px;
+    height: 6px;
+    margin-bottom: 6px;
+}
+
+.get-started .start .start2 .start-item5 {
+    background-color: rgb(223, 209, 209);
+    border-radius: 5px;
+    height: 6px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.get-started .start .start2 .start-item6 {
+    background-color: rgb(223, 209, 209);
+    border-radius: 5px;
+    height: 6px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.get-started .start .start2 .start-item7 {
+    background-color: rgb(223, 209, 209);
+    border-radius: 5px;
+    width: 165px;
+    height: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.get-started .start .start3 .start-box {
+    background-color: purple;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+
+}
+
+.get-started .continue .rec-box {
+    max-width: 350px;
+    max-height: 150px;
+    background-color: white;
+
+}
+
+/* .get-started .continue .rec-box .circle 
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: grey; */
+
+/* Programs section */
+.programs {
+    background-color: white;
+    height: 70vh;
+
+    display: flex;
+    justify-content: space-between;   
+    padding: 45px 100px;
+
+}
+
+.programs .line { 
+    height: 8px;
+    width: 212px;
+    background-color: rgb(184, 174, 174);
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.programs .program1 {
+
+    display: flex;
+flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.programs .program1 .program-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+
+.programs .program1 .program-items .program-box {
+
+    height: 45px;
+    width: 250px;
+    background-color: rgb(184, 174, 174);
+    margin-bottom: 7px;
+}
+
+.programs .program1 .program-items .protext-item .protext-item1 {
+    width: 125px;
+    height: 8px;
+    background-color: grey;
+    margin-bottom: 7px;
+
+}
+
+.programs .program1 .program-items .protext-item .protext-item2 {
+    width: 250px;
+    height: 8px;
+    background-color: rgb(184, 174, 174);
+    margin-bottom: 7px;
+
+}
+
+.programs .program1 .program-items .protext-item .protext-item3 {
+    width: 200px;
+    height: 8px;
+    background-color: rgb(184, 174, 174);
+    margin-bottom: 7px;
+
+}
+
+/* sign-up section */
+
+.sign-up{
+    background-color: purple;
+    height: 22vh;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px 200px;
+
+}
+.sign-up .sign-up1{
+    height: 30px;
+    width: 450px;
+    background-color: grey;
+    padding: 20px 270px;
+}
+.sign-up .sign-up2{
+    height: 40px;
+    width: 100px;
+    background-color: grey;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 51, 51);
+    padding: 45px 100px;
+}
+
+.footer .footer1 .footer-items .footer-item1{
+    height: 6px;
+    width: 100px;
+    background-color: beige;
+    margin-bottom: 9px;
+
+}
+.footer .footer1 .footer-items .footer-item2{
+    height: 6px;
+    width: 185px;
+    background-color: rgb(122, 101, 101);
+    margin-bottom: 9px;
+
+}
+
+.footer .footer1 .footer-items .footer-item2{
+    height: 6px;
+    background-color: rgb(122, 101, 101);
+    margin-bottom: 9px;
+    width: 145px;
+
+}
+
+.last{
+    background-color: black;
+    height: 10vh;
+}
+
+
+.footer .footer1 .footer-items .footer-item3{
+    height: 6px;
+    background-color: rgb(122, 101, 101);
+    margin-bottom: 9px;
+    width: 145px;
+
+}
