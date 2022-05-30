@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(250, 244, 244);
+}
+
+.logo {
+    font-size: 50px;
+    align-self: center;
+}
+
+.first {
+    height: 12vh;
+    width: 1230px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.right-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navigation {}
+
+.second {
+    height: 12vh;
+    width: 1230px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.third {
+    height: 20vh;
+    width: 1230px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    justify-items: space-evenly;
+    gap: 10px;
+}
+
+.pre-search {}
+
+.search-container {
+    background-color: white;
+}
+
+.search {
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    display: flex;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.fourth {
+    height: 20vh;
+    width: 1230px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.fa-solidfa-eye {
+    width: 15px;
+    height: 10px;
+}
+
+.box {
+    height: 25px;
+    background-color: rgb(228, 225, 225);
+    width: 175px;
+    border-radius: 10px;
+}
+
+.button {
+    margin-left: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    background-color: rgb(142, 92, 179);
+    border-radius: 15px;
+}
+
+.elements {
+    display: flex;
+    justify-items: space-evenly;
+    gap: 25px;
+}
+
+.fifth {
+    height: 35vh;
+    width: 1230px;
+    background-color: white;
+    border: 3px solid transparent;
+    margin-bottom: 10px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.features {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.sixth {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.element1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.element1 .circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.click{
+
+        margin-left: 5px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        background-color: rgb(142, 92, 179);
+        border-radius: 15px;
+        margin-bottom: 10px;
+}
