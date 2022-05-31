@@ -183,3 +183,100 @@ body {
         border-radius: 15px;
         margin-bottom: 10px;
 }
+
+/* Mr.Arc's styling start's here */
+
+.arc-nav{
+    background-image: linear-gradient(to right,rgb(81, 3, 136),rgb(154, 22, 248));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    height: 60px;
+    color: white;
+}
+
+.arc-nav .link-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.arc-nav .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.arc-nav .links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    height: 100%;
+}
+.arc-nav .links li{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arc-nav .links li.active{
+    border-bottom: 2px solid red;
+}
+.arc-nav .links .nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+      
+}
+
+.arc-nav .nav-info{
+    display: flex;
+    align-items: center;
+}
+
+.arc-nav .nav-info .info{
+    border-right: 2px solid grey;
+    padding: 5px 20px;
+    
+}
+
+.arc-nav .nav-info .info.user-info{
+    display: flex;
+    align-items: center;
+}
+.arc-nav .nav-info .info.user-info .dropdown{
+    margin-left: 10px;
+}
+
+.arc-nav .nav-info .info.user-info .user-image{
+    width: 35px;
+    height: 35px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.arc-nav .nav-info .info.user-info .user-image img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.arc-nav .nav-info .create-story-btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+/* Mr.Arc's styling end's here */
