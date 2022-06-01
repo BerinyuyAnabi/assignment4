@@ -2,33 +2,49 @@ body {
     background-color: rgb(250, 244, 244);
 }
 
-.logo {
-    font-size: 50px;
-    align-self: center;
-}
-
 .first {
+    padding: 0px 50px;
     height: 12vh;
-    width: 1230px;
+    width: 1100px;
     background-color: white;
     border: 3px solid transparent;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    align-items: center;
 }
+
+.logo {
+    color: blueviolet;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 
 .right-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 
-.navigation {}
+.first .right-logo .circle {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(97, 93, 212);
+    border-radius: 50%;
+}
+
+.first .right-logo .dropdown {
+    margin-right: 13px;
+
+}
+
 
 .second {
     height: 12vh;
-    width: 1230px;
+    padding: 0px 50px;
+    width: 1100px;
     background-color: white;
     border: 3px solid transparent;
     display: flex;
@@ -37,16 +53,17 @@ body {
     margin-bottom: 40px;
 }
 
-.space {
+.second .space {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
 
 .third {
     height: 20vh;
-    width: 1230px;
+    padding: 0px 50px;
+    width: 1100px;
     background-color: white;
     border: 3px solid transparent;
     display: flex;
@@ -54,31 +71,41 @@ body {
     justify-content: space-between;
 }
 
-.options {
+.third .options {
     display: flex;
-    justify-items: space-evenly;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 35px;
 }
 
-.pre-search {}
+.third .icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 
 .search-container {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .search {
-    width: 300px;
-    height: 25px;
+    width: 600px;
+    height: 40px;
+    padding: 0px 10px;
     border-radius: 20px;
     background-color: lightgrey;
     display: flex;
-    justify-items: center;
-    margin-bottom: 30px;
+    justify-content:right;
+    align-items: center;
+
 }
 
 .fourth {
     height: 20vh;
-    width: 1230px;
+    padding: 0px 50px;
+    width: 1100px;
     background-color: white;
     border: 3px solid transparent;
     display: flex;
@@ -92,101 +119,81 @@ body {
     height: 10px;
 }
 
-.box {
-    height: 25px;
-    background-color: rgb(228, 225, 225);
-    width: 175px;
-    border-radius: 10px;
-}
-
-.button {
-    margin-left: 5px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    width: 180px;
-    background-color: rgb(142, 92, 179);
-    border-radius: 15px;
-}
-
-.elements {
-    display: flex;
-    justify-items: space-evenly;
-    gap: 25px;
-}
-
-.fifth {
-    height: 30vh;
-    width: 1230px;
-    background-color: white;
-    border: 3px solid transparent;
-    margin-bottom: 30px;
-
-}
-
-.top {
+.fourth .elements {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.features {
-
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-}
-
-.sixth {
-    background-color: rgb(147, 105, 177);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-}
-
-.element {
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-}
-.element1{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
     gap: 20px;
 }
 
-.element1 .circle {
-    background-color: white;
-    border-radius: 50%;
-    width: 30px;
+.box {
     height: 30px;
-    margin-bottom: 10px;
+    background-color: rgb(228, 225, 225);
+    width: 175px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-.text{
+.fourth .create-account-btn {
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+    
+}
+
+
+.fifth {
+    height: 15vh;
+    width: 1100px;
+    padding: 0px 50px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.fifth .icons {
     display: flex;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
-.click{
 
-        margin-left: 5px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        width: 180px;
-        background-color: rgb(142, 92, 179);
-        border-radius: 15px;
-        margin-bottom: 10px;
+.features {
+    height: 10vh;
+    width: 1100px;
+    padding: 0px 50px;
+    background-color: white;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-/* Mr.Arc's styling start's here */
+.features .links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+    color: none;
+}
 
-.arc-nav{
+.features .links .nav-link-active {
+    border-bottom: 2px solid blueviolet;
+}
+
+
+.sixth{
     background-image: linear-gradient(to right,rgb(81, 3, 136),rgb(154, 22, 248));
     display: flex;
     justify-content: space-between;
@@ -196,19 +203,19 @@ body {
     color: white;
 }
 
-.arc-nav .link-container{
+.sixth .link-container{
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-.arc-nav .logo{
+.sixth .logo{
     color: white;
     text-decoration: none;
     font-size: 25px;
 }
 
-.arc-nav .links{
+.sixth .links{
     display: flex;
     align-items: center;
     list-style: none;
@@ -218,17 +225,17 @@ body {
     margin-left: 50px;
     height: 100%;
 }
-.arc-nav .links li{
+.sixth .links li{
     
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.arc-nav .links li.active{
+.sixth .links li.active{
     border-bottom: 2px solid red;
 }
-.arc-nav .links .nav-link{
+.sixth .links .nav-link{
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -236,26 +243,26 @@ body {
       
 }
 
-.arc-nav .nav-info{
+.sixth .sixth-info{
     display: flex;
     align-items: center;
 }
 
-.arc-nav .nav-info .info{
+.sixth .sixth-info .info{
     border-right: 2px solid grey;
     padding: 5px 20px;
     
 }
 
-.arc-nav .nav-info .info.user-info{
+.sixth .sixth-info .info.user-info{
     display: flex;
     align-items: center;
 }
-.arc-nav .nav-info .info.user-info .dropdown{
+.sixth .sixth-info .info.user-info .dropdown{
     margin-left: 10px;
 }
 
-.arc-nav .nav-info .info.user-info .user-image{
+.sixth .sixth-info .info.user-info .user-image{
     width: 35px;
     height: 35px;
     border: 2.5px solid white;
@@ -264,13 +271,113 @@ body {
     overflow: hidden;
 }
 
-.arc-nav .nav-info .info.user-info .user-image img{
+.sixth .sixth-info .info.user-info .user-image img{
     width: 100%;
     height: auto;
     
 }
 
-.arc-nav .nav-info .create-story-btn{
+.sixth .sixth-info .create-story-btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+
+/* Mr.Arc's styling start's here */
+
+.arc-nav {
+    background-image: linear-gradient(to right, rgb(81, 3, 136), rgb(154, 22, 248));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    height: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.arc-nav .link-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.arc-nav .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.arc-nav .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.arc-nav .links li {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arc-nav .links li.active {
+    border-bottom: 2px solid red;
+}
+
+.arc-nav .links .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.arc-nav .nav-info {
+    display: flex;
+    align-items: center;
+}
+
+.arc-nav .nav-info .info {
+    border-right: 2px solid grey;
+    padding: 5px 20px;
+
+}
+
+.arc-nav .nav-info .info.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.arc-nav .nav-info .info.user-info .dropdown {
+    margin-left: 10px;
+}
+
+.arc-nav .nav-info .info.user-info .user-image {
+    width: 35px;
+    height: 35px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.arc-nav .nav-info .info.user-info .user-image img {
+    width: 100%;
+    height: auto;
+
+}
+
+.arc-nav .nav-info .create-story-btn {
     text-decoration: none;
     color: black;
     background-color: white;
